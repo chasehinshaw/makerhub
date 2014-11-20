@@ -1,3 +1,5 @@
 ## MakerHub: A Place to share Ideas
 
-This project utilizes the Laravel 4 PHP Framework
+This project includes the following technologies:
+- Laravel 4 PHP Framework
+- Git Version Control
