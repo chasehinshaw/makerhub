@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MakerHub | Ideas</title>
+        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link media="all" type="text/css" rel="stylesheet" href="http://localhost/css/vendor/bootstrap.min.css">
+
+    <!-- Flat UI Pro -->
+    <link media="all" type="text/css" rel="stylesheet" href="http://localhost/css/flat-ui-pro.css">
+
+    <!-- Custom Styles -->
+    <link media="all" type="text/css" rel="stylesheet" href="http://localhost/css/styles.css">
+
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  
+  <!-- Main Navigation (top) -->
+  <header class="main-header">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+
+      <header class="navbar-header">
+        <!-- LOGO -->
+        <a class="navbar-brand" href="/">MakerHub</a>
+        <!-- @resposive  menu btn  -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-2">
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+      </header>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-2">
+        <ul class="nav navbar-nav navbar-main">
+          <li class="active"><a href="/myhub">MyHub</a></li>
+          <li><a href="/explore">Explore</a></li>
+          <li><a href="/learn">Learn</a></li>
+        </ul>
+
+        <!-- Right Side Navigation -->
+        
+        <ul class="nav navbar-nav navbar-right">
+
+                    
+            <li class="dropdown">
+
+              <a data-toggle="dropdown" class="dropdown-toggle" href="">
+                <img class="nav-gravatar" src="//www.gravatar.com/avatar/b48def645758b95537d4424c84d1a9ff?s=24" alt=" facere ">
+                facere <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="/myhub/{}">My Profile</a>
+                </li>
+                <li>
+                  <a href="/myhub/notifications">Notifications</a>
+                </li>
+                <li>
+                  <a href="/myhub/subscriptions">Subscriptions</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="http://localhost/logout">Logout</a>
+                </li>
+              </ul>
+            </li>
+                  </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav><!-- /navbar -->
+</header>
+  <!-- Main Page Container -->
+  <div class="container">
+    <div class="alert alert-info">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+
+            Welcome back!
+        </div>
+        <div class="row">  
+
+      	<div class="col-lg-9 col-md-9">
+				
+		<div class="idea-post">
+			<form method="POST" action="http://localhost/ideas" accept-charset="UTF-8"><input name="_token" type="hidden" value="SMksWrHoEOhYaR9aTP3EiYFkxHJLRQfmjVjJFHHq">
+				
+				<div class="form-group">
+					<textarea class="form-control" placeholder="What&#039;s your Idea?" rows="3" name="content" cols="50"></textarea>
+				</div>
+
+				<div class="form-group idea-post-submit">
+					<input class="btn btn-primary btn-xs" type="submit" value="Post Idea">
+				</div>
+
+			</form>
+		</div>
+
+			</div>
+      	 <div class="col-lg-3 col-md-3">
+	  <section class="sidebar">
+		  <ul class="nav nav-list ">
+		  
+		  <li class="nav-header">MyHub</li>
+<li class="active">
+  <a href="/myhub">
+    <span class="fui-star-2 text-default"></span>
+    What's New
+    <span class="badge pull-right">19</span>
+  </a>
+</li>
+<li>
+  <a href="myhub/profile">
+    <span class="fui-user text-default"></span>
+    Profile
+  </a>
+</li>
+
+<ul class="nav nav-list">
+  <li>
+    <a href="myhub/profile#ideas">
+      <span class="fui-star-2 text-default"></span>
+      My Ideas
+    </a>
+  </li>
+  <li>
+    <a href="myhub/profile#projects">
+      <span class="fui-star-2 text-default"></span>
+      My Projects
+    </a>
+  </li>
+  <li>
+    <a href="myhub/profile#objects">
+      <span class="fui-star-2 text-default"></span>
+      My Objects
+    </a>
+  </li>
+</ul>
+
+<li>
+  <a href="myhub/subscriptions">
+    <span class="fui-star-2 text-default"></span>
+    Subscriptions
+    <span class="badge pull-right">19</span>
+  </a>
+</li>
+<li>
+  <a href="myhub/notifications">
+    <span class="fui-star-2 text-default"></span>
+    Notifications
+    <span class="badge pull-right">19</span>
+  </a>
+</li>
+<!-- end Secondary Navigation -->
+		  <li class="divider"></li>
+		  <div class="sidebar-btn-group">
+       
+  <a href="" class="btn btn-primary btn-block btn-embossed">
+    <span class="fui fui-gear"></span>
+    Post Idea
+  </a>
+
+  <a href="" class="btn btn-primary btn-block btn-embossed">
+    <span class="fui fui-gear"></span>
+    New Project
+  </a>
+
+  <a href="" class="btn btn-primary btn-block btn-embossed">
+    <span class="fui fui-gear"></span>
+    New Object
+  </a>
+
+</div>		  <li class="divider"></li>
+		  <!-- SUBSCRIBE ACCORDIAN LIST -->
+<li class="subscribe-list nav-header">
+    <span>
+      Your Subscriptions
+      <a href="#"><span class="icon fui-gear pull-right"></span></a>
+    </span>
+</li>
+
+<!-- USERS accordian list -->
+<li class="subscribe-list nav nav-list">
+	<!-- Accordian TITLE -->
+  <li class="accordian-title nav-header" data-toggle="collapse" data-target="#sidebar-subscribe-users">
+    <a href="#" data-toggle="collapse">
+    <span>
+      Users
+      <span class="icon fui-triangle-down-small pull-right"></span>
+    </span>
+    </a>
+  </li>
+  <ul class="accordian-list nav nav-list collapse" id="sidebar-subscribe-users">
+		<!-- Foreach $users as $user (limit 6) -->
+    <li class="accorian-item">
+      <a href="" title="">
+      <span>
+        <img src="" class="avatar-tiny" alt="">
+        Chase Hinshaw         <span class="fui-arrow-right pull-right"></span>
+      </span>
+      </a>
+    </li>
+		<!-- END foreach -->
+		<li>
+      <a href="#">
+        See All
+      </a>
+    </li>
+  </ul>
+</li>
+
+<!-- PROJECTS accordian list -->
+<li class="subscribe-list nav nav-list">
+	<!-- Accordian TITLE -->
+  <li class="accordian-title nav-header" data-toggle="collapse" data-target="#sidebar-subscribe-projects">
+    <a href="#" data-toggle="collapse">
+    <span>
+      Projects
+      <span class="icon fui-triangle-down-small pull-right"></span>
+    </span>
+    </a>
+  </li>
+  <ul class="accordian-list nav nav-list collapse" id="sidebar-subscribe-projects">
+		<!-- Foreach $projects as $project (limit 6) -->
+    <li class="accorian-item">
+      <a href="" title="">
+      <span>
+        <img src="" class="avatar-tiny" alt="">
+        This is a project title         <span class="fui-arrow-right pull-right"></span>
+      </span>
+      </a>
+    </li>
+		<!-- END foreach -->
+		<li>
+      <a href="#">
+        See All
+      </a>
+    </li>
+  </ul>
+</li>
+
+<!-- OBJECTS accordian list -->
+<li class="subscribe-list nav nav-list">
+	<!-- Accordian TITLE -->
+  <li class="accordian-title nav-header" data-toggle="collapse" data-target="#sidebar-subscribe-objects">
+    <a href="#" data-toggle="collapse">
+    <span>
+      Objects
+      <span class="icon fui-triangle-down-small pull-right"></span>
+    </span>
+    </a>
+  </li>
+  <ul class="accordian-list nav nav-list collapse" id="sidebar-subscribe-objects">
+		<!-- Foreach $objects as $object (limit 6) -->
+    <li class="accorian-item">
+      <a href="" title="">
+      <span>
+        <img src="" class="avatar-tiny" alt="">
+        This is an object title         <span class="fui-arrow-right pull-right"></span>
+      </span>
+      </a>
+    </li>
+		<!-- END foreach -->
+		<li>
+      <a href="#">
+        See All
+      </a>
+    </li>
+  </ul>
+</li>
+		  </ul>
+	  </section>
+  </div>
+
+    </div>
+  </div>
+
+  <div class="footer-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-md-9">
+
+        <div class="footer bottom-menu">
+          <div class="row">
+            
+            <div class="col-md-3 col-sm-3">
+              <a class="bottom-menu-brand" href="#fakelink">MakerHub</a>
+            </div>
+
+            <div class="col-md-7 col-sm-7">
+              <ul class="bottom-menu-list">
+                <li><a href="#fakelink">About Us</a></li>
+                <li><a href="#fakelink">Privacy</a></li>
+                <li><a href="#fakelink">Terms</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-2 col-sm-2">
+              <ul class="bottom-menu-iconic-list">
+                <li><a class="fui-pinterest" href="#fakelink"></a></li>
+                <li><a class="fui-facebook" href="#fakelink"></a></li>
+                <li><a class="fui-twitter" href="#fakelink"></a></li>
+              </ul>
+            </div>
+
+          </div> <!-- end row -->
+        </div> <!-- end Footer Menu-->
+
+      </div> <!-- end 9 Column -->
+    </div> <!-- end row -->
+  </div> <!-- end main Container-->
+
+  <div class="footer-base">
+  </div>
+
+</div>  <!-- jQuery -->
+<script src="http://localhost/js/vendor/jquery.min.js"></script>
+
+<!-- UI Toolkit -->
+<script src="http://localhost/js/flat-ui-pro.min.js"></script>
+
+<!-- Main App Scripts -->
+<script src="http://localhost/js/app.js"></script>
+
+
+<script>$('#flash-overlay-modal').modal();</script>
+</body>
+</html>

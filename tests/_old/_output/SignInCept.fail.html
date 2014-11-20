@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MakerHub | Ideas</title>
+        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link media="all" type="text/css" rel="stylesheet" href="http://localhost/css/vendor/bootstrap.min.css">
+
+    <!-- Flat UI Pro -->
+    <link media="all" type="text/css" rel="stylesheet" href="http://localhost/css/flat-ui-pro.css">
+
+    <!-- Custom Styles -->
+    <link media="all" type="text/css" rel="stylesheet" href="http://localhost/css/styles.css">
+
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  
+  <!-- Main Navigation (top) -->
+  <header class="main-header">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+
+      <header class="navbar-header">
+        <!-- LOGO -->
+        <a class="navbar-brand" href="/">MakerHub</a>
+        <!-- @resposive  menu btn  -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-2">
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+      </header>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-2">
+        <ul class="nav navbar-nav navbar-main">
+          <li class="active"><a href="/myhub">MyHub</a></li>
+          <li><a href="/explore">Explore</a></li>
+          <li><a href="/learn">Learn</a></li>
+        </ul>
+
+        <!-- Right Side Navigation -->
+        
+        <ul class="nav navbar-nav navbar-right">
+
+                    
+            <li class="dropdown">
+              <a data-toggle="dropdown" class="dropdown-toggle" href="">
+                perferendis <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="/myhub/{}">My Profile</a>
+                </li>
+                <li>
+                  <a href="/myhub/notifications">Notifications</a>
+                </li>
+                <li>
+                  <a href="/myhub/subscriptions">Subscriptions</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="">Sign Out</a>
+                </li>
+              </ul>
+            </li>
+                  </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav><!-- /navbar -->
+</header>
+  <!-- Main Page Container -->
+  <div class="container">
+    <div class="row">  
+      
+      <div class="alert alert-info">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+
+            Welcome back!
+        </div>
+    
+      	<h1>Post a New Idea</h1>
+
+	<form method="POST" action="http://localhost/ideas" accept-charset="UTF-8"><input name="_token" type="hidden" value="rxQfp6luZtJ3AZN7c7kpIxofEwN0rDZ360qlLPv2">
+		
+		<div class="form-group">
+			<label for="Idea">Status:</label>
+			<textarea class="form-control" name="Idea" cols="50" rows="10" id="Idea"></textarea>
+		</div>
+
+		<div class="form-group">
+			<input class="btn btn-primary" type="submit" value="Post Idea">
+		</div>
+
+	</form>
+
+      
+    </div>
+  </div>
+
+  <div class="footer-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-md-9">
+
+        <div class="footer bottom-menu">
+          <div class="row">
+            
+            <div class="col-md-3 col-sm-3">
+              <a class="bottom-menu-brand" href="#fakelink">MakerHub</a>
+            </div>
+
+            <div class="col-md-7 col-sm-7">
+              <ul class="bottom-menu-list">
+                <li><a href="#fakelink">About Us</a></li>
+                <li><a href="#fakelink">Privacy</a></li>
+                <li><a href="#fakelink">Terms</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-2 col-sm-2">
+              <ul class="bottom-menu-iconic-list">
+                <li><a class="fui-pinterest" href="#fakelink"></a></li>
+                <li><a class="fui-facebook" href="#fakelink"></a></li>
+                <li><a class="fui-twitter" href="#fakelink"></a></li>
+              </ul>
+            </div>
+
+          </div> <!-- end row -->
+        </div> <!-- end Footer Menu-->
+
+      </div> <!-- end 9 Column -->
+    </div> <!-- end row -->
+  </div> <!-- end main Container-->
+
+  <div class="footer-base">
+  </div>
+
+</div>  <!-- jQuery -->
+<script src="http://localhost/js/vendor/jquery.min.js"></script>
+
+<!-- UI Toolkit -->
+<script src="http://localhost/js/flat-ui-pro.min.js"></script>
+
+<!-- Main App Scripts -->
+<script src="http://localhost/js/app.js"></script>
+
+
+<script>$('#flash-overlay-modal').modal();</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+MakerHub\Users\User:
+ username: $string
+ email: $string@example.com
+ password: $string
+ firstname: $string
+ lastname: $string
+ location: $string
+ url: /img/users/$string
+ bio: $string
+ created_at: $date
+ updated_at: $date

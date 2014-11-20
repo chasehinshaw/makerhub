@@ -1,0 +1,98 @@
+@import "variables";
+
+.user-profile-img {
+	width: 100%;
+	height: auto;
+	border-radius: @border-radius-base;
+	margin-bottom: @line-height-computed/2;
+}
+.nav-gravatar {
+	float:left;
+	margin-right: 8px;
+	margin-top: -2px;
+	border: 1px solid @gray;
+}
+.nav-login {
+	font-size: 14px;
+	color: @gray-light;
+}
+
+.sidebar .avatar {
+	width:auto;
+}
+.avatar {
+	width: 100%;
+	margin-bottom: 8px;
+	border-radius: @border-radius-base;
+}
+.explore .avatar {
+	
+}
+
+// The "publish idea" area
+.idea-post {
+	border: 2px solid @gray;
+	border-radius: @border-radius-base;
+	background: @gray-dark;
+	padding: 0;
+	margin-bottom: 2em;
+	textarea {
+		border: none;
+		max-width: 100%;
+		min-width: 100%;
+
+		&:focus {
+			box-shadow: none;
+			background: none;
+		}
+	}
+	.idea-post-submit {
+		border-top: 2px solid darken(@gray, 5%);
+		padding: .5em 1em;
+		margin-bottom: 0;
+		overflow: hidden;
+	}
+	.btn{float:right;}
+}
+
+// Users List
+.users {
+	margin-bottom: 3em;
+}
+.user-block {
+	text-align: center;
+	.avatar {
+		margin: 0 auto;
+	}
+}
+
+// Each individual idea
+.idea-media {
+	border: 2px solid @gray;
+	border-radius: @border-radius-base;
+	background: @gray-dark;
+	padding: 16px;
+	margin-bottom: 1em;
+}
+
+.jumbotron {
+	background-color: @wet-asphalt;
+	h1 {
+		margin-bottom: @line-height-computed;
+	}
+}
+
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+.well {
+	background: none;
+	border: 2px solid @gray-dark;
+}
+
+.footer-container .bottom-menu {
+	background: none;
+	color: lighten(@gray-dark, 5%);
+}

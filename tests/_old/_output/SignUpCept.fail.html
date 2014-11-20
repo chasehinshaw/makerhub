@@ -1,0 +1,166 @@
+<!-- Form to Register New User -->
+
+<!-- Pull {$user} subscribed sections (repeat x3) -->
+
+<!-- Show default MyHub Sidebar -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MakerHub | Register</title>
+        
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap -->
+    <link media="all" type="text/css" rel="stylesheet" href="http://localhost/css/vendor/bootstrap.min.css">
+
+    <!-- Flat UI Pro -->
+    <link media="all" type="text/css" rel="stylesheet" href="http://localhost/css/flat-ui-pro.css">
+
+    <!-- Custom Styles -->
+    <link media="all" type="text/css" rel="stylesheet" href="http://localhost/css/styles.css">
+
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  
+  <!-- Main Navigation (top) -->
+  <header class="main-header">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+
+      <header class="navbar-header">
+        <!-- LOGO -->
+        <a class="navbar-brand" href="/">MakerHub</a>
+        <!-- @resposive  menu btn  -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-2">
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+      </header>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse-2">
+        <ul class="nav navbar-nav navbar-main">
+          <li class="active"><a href="/myhub">MyHub</a></li>
+          <li><a href="/explore">Explore</a></li>
+          <li><a href="/learn">Learn</a></li>
+        </ul>
+
+        <!-- Right Side Navigation -->
+        
+        <ul class="nav navbar-nav navbar-right">
+
+           
+            <a href="http://localhost/register" class="btn btn-info btn-sm navbar-btn mhm">Sign Up!</a>
+            <a href="http://localhost/login" class="btn btn-primary btn-sm navbar-btn mhm">Log In</a>
+                  </ul>
+
+      </div><!-- /.navbar-collapse -->
+    </div>
+  </nav><!-- /navbar -->
+</header>
+  <!-- Main Page Container -->
+  <div class="container">
+        <div class="row">  
+
+      
+	<div class="col-lg-6 col-md-6">
+		
+		<h1>Register</h1>
+
+				
+		<form method="POST" action="http://localhost/register" accept-charset="UTF-8"><input name="_token" type="hidden" value="gIxkNTAe4V0K9K8c5uN2CFswdVbVD0yOFE2WueDo">
+			
+			<!-- Username Form Input -->
+			<div class="form-group">
+				<label for="username">Username:</label>
+				<input class="form-control" name="username" type="text" id="username">
+			</div>
+
+			<!-- Email Form Input -->
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input class="form-control" name="email" type="text" id="email">
+			</div>
+
+			<!-- Password Form Input -->
+			<div class="form-group">
+				<label for="password">Password:</label>
+				<input class="form-control" name="password" type="password" value="" id="password">
+			</div>
+
+			<!-- Password_confirmation Form Input -->
+			<div class="form-group">
+				<label for="password_confirmation">Confirm Password:</label>
+				<input class="form-control" name="password_confirmation" type="password" value="" id="password_confirmation">
+			</div>
+
+			<!-- Submit Registration Form -->
+			<div class="form-group">
+				<input class="btn btn-primary" type="submit" value="Sign Up!">
+			</div>
+
+		</form>
+
+	</div>
+      	
+    </div>
+  </div>
+
+  <div class="footer-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 col-md-9">
+
+        <div class="footer bottom-menu">
+          <div class="row">
+            
+            <div class="col-md-3 col-sm-3">
+              <a class="bottom-menu-brand" href="#fakelink">MakerHub</a>
+            </div>
+
+            <div class="col-md-7 col-sm-7">
+              <ul class="bottom-menu-list">
+                <li><a href="#fakelink">About Us</a></li>
+                <li><a href="#fakelink">Privacy</a></li>
+                <li><a href="#fakelink">Terms</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-2 col-sm-2">
+              <ul class="bottom-menu-iconic-list">
+                <li><a class="fui-pinterest" href="#fakelink"></a></li>
+                <li><a class="fui-facebook" href="#fakelink"></a></li>
+                <li><a class="fui-twitter" href="#fakelink"></a></li>
+              </ul>
+            </div>
+
+          </div> <!-- end row -->
+        </div> <!-- end Footer Menu-->
+
+      </div> <!-- end 9 Column -->
+    </div> <!-- end row -->
+  </div> <!-- end main Container-->
+
+  <div class="footer-base">
+  </div>
+
+</div>  <!-- jQuery -->
+<script src="http://localhost/js/vendor/jquery.min.js"></script>
+
+<!-- UI Toolkit -->
+<script src="http://localhost/js/flat-ui-pro.min.js"></script>
+
+<!-- Main App Scripts -->
+<script src="http://localhost/js/app.js"></script>
+
+
+<script>$('#flash-overlay-modal').modal();</script>
+</body>
+</html>

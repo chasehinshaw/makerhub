@@ -1,0 +1,48 @@
+//
+// CUSTOM Styles for App Modules
+//
+
+// Navbar
+.navbar { border-radius: 0px; color:white !important;  } 
+.navbar-default { background-color: @white }
+.navbar-default 
+	.navbar-brand { 
+		color: @turquoise; 
+		&:hover { color: @green-sea; }
+	}
+
+
+
+// Buttons
+.sidebar-btn-group .btn span { float:left; }
+
+
+// User Profile
+.user-profile-summary .avatar { width: 100%; border-radius: 6px; margin-bottom: 8px; }
+
+
+// Form Styles
+.login-icon{ font-size: 48px; text-align: centered; margin:0 auto;}
+
+.idea-post-textarea { position: relative; }
+.idea-post .fileinput { position: absolute; top: 0; right: 0; }
+.idea-post .fileinput .thumbnail {  margin: 8px; width: 150px; height:100px; }
+.idea-post .fileinput-btn-group { float:right; margin-right: 8px; margin-top: -8px; }
+
+
+// Card Thumbnails
+.card { border: 2px solid @white; background: lighten(@white, 8%); }
+.card p { font-size: 12px; }
+.card .card-heading { margin-bottom: 16px; }
+.card .card-comments { padding-top: 0; padding-bottom: 1px; }
+// Card Users
+@media (min-width: @screen-md-min) { 
+	.card.people { width: 100%; }
+}
+.card.people .card-top { width: 100%; }
+.card.people .card-top img { width: 100%; height: auto; }
+.card.people .card-info { height:100% }
+.card.people .subscribe-form-bottom-links { font-size: 12px; float:left; }
+
+
+
