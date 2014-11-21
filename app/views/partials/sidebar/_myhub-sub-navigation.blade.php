@@ -12,6 +12,18 @@
   </a>
 </li>
 <li class="">
+  <a href=" {{ URL::route('project_path') }} ">
+    <i class="fa fa-lightbulb-o"></i>
+    Projects
+  </a>
+</li>
+<li class="">
+  <a href=" {{ URL::route('object_path') }} ">
+    <i class="fa fa-lightbulb-o"></i>
+    Objects
+  </a>
+</li>
+<li class="">
   <a href="{{ URL::route('profile_path', $currentUser->username) }}">
 
     <span class="fui-user text-default"></span>
@@ -19,19 +31,20 @@
   </a>
 </li>
 
+<li class="">
+  <a href="/subscriptions">
+    <span class="fui-heart "></span>
+    Subscriptions
+  </a>
+</li>
+
 <li class="disabled">
   <a href="">
-    <span class="fui-check "></span>
+    <span class="fui-list-bulleted "></span>
     Notifcations
   </a>
 </li>
 
-<li class="">
-  <a href="/subscriptions">
-    <span class="fui-check "></span>
-    Subscriptions
-  </a>
-</li>
 
 
 

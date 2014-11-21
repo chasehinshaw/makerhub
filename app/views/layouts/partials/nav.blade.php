@@ -16,10 +16,14 @@
           <li class="active">
             {{-- link_to_route('profile_path', ' MyHub', $currentUser->username) --}}
           </li>
+          
           <li>
-            {{ link_to_route('users_path', 'Explore') }}
+            {{ link_to_route('explore_path', 'Explore') }}
           </li>
-          <li><a href="/learn">Learn</a></li>
+
+          <li>
+            {{ link_to_route('learn_path', 'Learn') }}
+          </li>
         </ul>
 
         <!-- Right Side Navigation -->

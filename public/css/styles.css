@@ -8684,6 +8684,9 @@ body {
 h3 {
   text-transform: uppercase;
 }
+img {
+  max-width: 100%;
+}
 a.form-side-link {
   padding-left: 8px;
   font-size: 12px;
@@ -8720,8 +8723,15 @@ a.nav-login {
   text-align: centered;
   margin: 0 auto;
 }
+.idea-post .form-group {
+  margin-bottom: 16px;
+}
 .idea-post-textarea {
   position: relative;
+}
+.idea-post-submit-btn {
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 .idea-post .fileinput {
   position: absolute;
@@ -8751,6 +8761,14 @@ a.nav-login {
 .card .card-comments {
   padding-top: 0;
   padding-bottom: 1px;
+  background: #ecf0f1;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.card .card-comments:hover {
+  background: #e0e7e8;
+  cursor: pointer;
 }
 @media (min-width: 992px) {
   .card.people {

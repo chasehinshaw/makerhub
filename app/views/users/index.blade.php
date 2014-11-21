@@ -2,7 +2,7 @@
 
 @section('main')
 	<div class="container">
-	<h1>View All Users</h1>
+	<h1>Explore All Users</h1>
 
 	<!-- Add the button section to SORTBY: -->
 	<!-- || (users)(ideas) || (recent) (top) || -->

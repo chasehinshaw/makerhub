@@ -5,6 +5,18 @@ Route::get('/', [
 	'as' => 'home',
 	'uses' => 'PagesController@showHome'
 ]);
+Route::get('learn', [
+	'as' => 'learn_path',
+	'uses' => 'PagesController@showLearn'
+]);
+Route::get('project-example', [
+	'as' => 'project_path',
+	'uses' => 'PagesController@showProject'
+]);
+Route::get('object-example', [
+	'as' => 'object_path',
+	'uses' => 'PagesController@showObject'
+]);
 
 /* Registration */
 Route::get('register', [
@@ -43,7 +55,6 @@ Route::get('ideas', [
 	'uses' => 'IdeasController@index'
 ]);
 
-
 /* Post a New Idea */
 Route::post('ideas', [
 	'as' => 'ideas_path',
@@ -67,8 +78,8 @@ Route::post('ideas/{id}/comments', [
  */
 
 /* Users -- to become EXPLORE page -- */
-Route::get('users', [
-	'as' => 'users_path',
+Route::get('explore', [
+	'as' => 'explore_path',
 	'uses' => 'UsersController@index'
 ]);
 
@@ -88,10 +99,13 @@ Route::post('{username}/edit',[
 ]);
 
 /* Subscriptions */
-Route::get('subscriptions', [
-	'as' => 'subscriptions_path',
-	'uses' => 'SubscriptionsController@index'
-]);
+// Route::get('subscriptions', [
+// 	'as' => 'subscriptions_path',
+// 	'uses' => 'SubscriptionsController@index'
+// ]);
+Route::get('subscriptions', ['as' => 'subscriptions_path'], function(){
+	echo "WHAT THE FUCK";
+});
 Route::post('subscribe', [
 	'as' => 'subscribe_path',
 	'uses' => 'SubscriptionsController@store'

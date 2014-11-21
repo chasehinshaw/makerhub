@@ -44,8 +44,8 @@ class IdeasController extends \BaseController {
 	 */
 	public function store()
 	{
-		$input = Input::file('ideaPhoto');
-		dd($input);
+		//$input = Input::get('ideaPhoto');
+
 		//$input['userId'] = Auth::id();
 		$input = array_add(Input::get(), 'userId', Auth::id());
 

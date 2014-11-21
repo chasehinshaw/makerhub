@@ -5,11 +5,10 @@
 		<div class="row">
 			<div class="col-lg-12 col-md-12">
 				@include('ideas.partials.publish-idea-form')
+				@include('ideas.partials.ideas')
 			</div>
+			
 		</div>
-		
-		@include('ideas.partials.ideas')
-		
 	</div>
 @stop
 

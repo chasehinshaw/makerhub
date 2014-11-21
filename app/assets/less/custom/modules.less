@@ -6,10 +6,9 @@
 .navbar { border-radius: 0px; color:white !important;  } 
 .navbar-default { background-color: @white }
 .navbar-default 
-	.navbar-brand { 
-		color: @turquoise; 
+	.navbar-brand { color: @turquoise; 
 		&:hover { color: @green-sea; }
-	}
+}
 
 
 
@@ -24,7 +23,9 @@
 // Form Styles
 .login-icon{ font-size: 48px; text-align: centered; margin:0 auto;}
 
+.idea-post .form-group { margin-bottom: 16px; }
 .idea-post-textarea { position: relative; }
+.idea-post-submit-btn { margin-top: 8px; margin-bottom: 16px; }
 .idea-post .fileinput { position: absolute; top: 0; right: 0; }
 .idea-post .fileinput .thumbnail {  margin: 8px; width: 150px; height:100px; }
 .idea-post .fileinput-btn-group { float:right; margin-right: 8px; margin-top: -8px; }
@@ -34,7 +35,8 @@
 .card { border: 2px solid @white; background: lighten(@white, 8%); }
 .card p { font-size: 12px; }
 .card .card-heading { margin-bottom: 16px; }
-.card .card-comments { padding-top: 0; padding-bottom: 1px; }
+.card .card-comments { padding-top: 0; padding-bottom: 1px; background: @clouds; .transition(.5s) }
+.card .card-comments:hover { background: darken(@clouds, 4%); cursor: pointer; }
 // Card Users
 @media (min-width: @screen-md-min) { 
 	.card.people { width: 100%; }

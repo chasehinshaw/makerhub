@@ -7,7 +7,7 @@
 
 			{{ Form::textarea('content', null, ['class'=>'form-control idea-post-textarea', 'placeholder'=>'What\'s your Idea?', 'rows'=>'3']) }}
 			
-			<div class="fileinput fileinput-new" data-provides="fileinput">
+			<!-- <div class="fileinput fileinput-new" data-provides="fileinput">
 		    <div class="fileinput-preview thumbnail" data-trigger="fileinput"></div>
 		    <div class="fileinput-btn-group">
 		      <span class="btn btn-primary btn-xs btn-embossed btn-file">
@@ -21,12 +21,12 @@
 		    </div>
 		  </div>
 
-		</div>
+		</div> -->
 
 		
 
 		<div class="form-group idea-post-submit">
-			{{ Form::submit('Post Idea', ['class' => 'btn btn-primary btn-xs']) }}
+			{{ Form::submit('Post Idea', ['class' => 'btn btn-wide btn-primary btn-xs']) }}
 		</div>
 
 	{{ Form::close() }}

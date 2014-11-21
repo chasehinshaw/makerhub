@@ -8,4 +8,21 @@ class PagesController extends \BaseController
 		return View::make('pages.home')
 			->withTitle($title);
 	}
+
+	public function showLearn()
+	{
+		$title = 'MakerHub | Learn';
+		return View::make('pages.learn')
+			->withTitle($title); 
+	}
+
+	public function showProject()
+	{
+		return View::make('pages.project');
+	}
+
+	public function showObject()
+	{
+		return View::make('pages.object');
+	}
 }
